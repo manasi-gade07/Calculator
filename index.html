@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+<div>
+ <input type="text" class="typ" id="scr" >
+</div>
+
+    <div class="btn">
+        <input type="button" value="+" onclick="pick('+')"class="key operator">
+        <input type="button" value="-" onclick="pick('-')"class="key operator">
+        <input type="button" value="&times;" onclick="pick('*')"class="key operator">
+        <input type="button" value="/"onclick="pick('/')" class="key operator">
+
+        <input type="button" value="7" onclick="pick(7)"class="key">
+        <input type="button" value="8" onclick="pick(8)"class="key">
+        <input type="button" value="9" onclick="pick(9)"class="key">
+
+        <input type="button" value="4"onclick="pick(4)" class="key">
+        <input type="button" value="5" onclick="pick(5)"class="key">
+        <input type="button" value="6" onclick="pick(6)"class="key">
+
+        <input type="button" value="1" onclick="pick(1)" class="key">
+        <input type="button" value="2" onclick="pick(2)" class="key">
+        <input type="button" value="3"onclick="pick(3)" class="key">
+
+        <input type="button" value="0" onclick="pick(0)"class="key">
+        <input type="button" value="." onclick="pick('.')"class="key">
+        <input type="button" value="=" onclick="solve()"class="key enter">
+        <input type="button" value="AC" onclick="clr()" class="key" >
+      
+
+
+</div>
+
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

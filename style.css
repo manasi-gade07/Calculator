@@ -1,0 +1,62 @@
+.card{
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    margin-block-start: 2em;
+    max-inline-size: 22rem;
+    /* overflow: hidden; */
+    color: hsl(202, 11%, 29%);
+  }
+  .typ {
+    background: hsl(255, 100%, 100%);
+    font-size: 1.66rem;
+    border: none;
+    padding-block-start: 4rem;
+    padding-block-end: 0.5rem;
+    padding-inline-end: 1.25rem;
+    text-align: end;
+  }
+  .btn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1px;
+    background: hsl(255, 100%, 100%);
+    padding: 0.5rem;
+  }
+  .key {
+    background: hsl(210, 25%, 95%);
+
+    border: none;
+    padding-block-start: 1rem;
+    padding-block-end: 1rem;
+    padding-inline-end: 1.25rem;
+    padding-inline-start: 1.25rem;
+    font-size: 1.5rem;
+    /* Playful Styles */
+    inline-size: 70px;
+    block-size: 70px;
+    margin: 0.25rem;
+    border-radius: 40px;
+  }
+  .key:active,
+  .key:focus {
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3) inset;
+    outline: none;
+  }
+  .operator {
+    background: hsl(208, 25%, 86%);
+
+  }
+  .operator:active {
+    background: hsl(207, 39%, 95%);
+  }
+  .enter {
+    grid-column: 4 / 5;
+    grid-row: 2 / span 4;
+    /* background: hsl(357, 100%, 72%); */
+    background: hsl(41, 96%, 62%);
+
+    height: auto;
+  }
