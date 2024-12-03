@@ -23,7 +23,10 @@ This is a basic calculator built using **HTML**, **CSS**, and **JavaScript**. It
 
 Watch the demo video below:
 
-https://github.com/manasi-gade07/Calculator/blob/a7391c946e4105592cb3a8b63cab9c4d1e0988d9/calculator.mp4
+<video width="640" height="360" controls>
+  <source src="https://github.com/manasi-gade07/Calculator/blob/a7391c946e4105592cb3a8b63cab9c4d1e0988d9/calculator.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
 ## Files Overview
