@@ -23,8 +23,10 @@ This is a basic calculator built using **HTML**, **CSS**, and **JavaScript**. It
 
 You can watch the demo video below:
 
-[![Calculator Demo](video/Calculator.mp4)
-
+<video width="640" height="360" controls>
+  <source src="video/Calculator.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Files Overview
 
