@@ -21,12 +21,11 @@ This is a basic calculator built using **HTML**, **CSS**, and **JavaScript**. It
 
 ## Demo
 
-You can watch the demo video below:
+Watch the demo video below:
 
-<video width="640" height="360" controls>
-  <source src="video/Calculator.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Calculator Demo](https://github.com/manasi-gade07/Calculator/blob/2e9fbc74162878a1ed0b92893ef1c55c4f2a4108/video/Calculator.mp4)
+
+
 
 ## Files Overview
 
