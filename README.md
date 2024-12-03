@@ -23,7 +23,7 @@ This is a basic calculator built using **HTML**, **CSS**, and **JavaScript**. It
 
 You can watch the demo video below:
 
-[![Calculator Demo](video/Calculator.mp3)
+[![Calculator Demo](video/Calculator.mp4)
 
 
 ## Files Overview
